@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+a{
+    display: inline-block;
+    text-align: center;
+    background: black;
+    color: white;
+    width: 500px;
+    height: 50px;
+    padding-top: 1%;
+    text-decoration: none;
+}
+div{
+    height: 500px;
+}
+div img{
+    display: none;
+
+}
+a:hover>div img{
+    display: inline-block;
+    height: 300px;
+    margin-top: 10%;
+}
